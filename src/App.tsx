@@ -5,6 +5,7 @@ import Taosukien from "./pages/Taosukien";
 import Danhsachdangki from "./pages/Danhsachdangki";
 import Nhanvien from "./pages/Nhanvien";
 import Bieudonhanvien from "./pages/Bieudonhanvien";
+import Login from "./pages/Login";
 import Sukien from "./pages/Sukien";
 import {useState} from "react";
 
@@ -22,6 +23,7 @@ export default function App() {
           <Route path="/nhanvien" element={<Nhanvien />} /> 
           <Route path="/bieudonhanvien" element={<Bieudonhanvien />} /> 
         </Route>
+        <Route path="/login" element={<Login />} /> 
       </Routes>
     </>
   )

@@ -41,3 +41,48 @@ export const sidebar_link = [
 	}
 ]
 
+export const employee_sidebar_link = [
+	{
+		key: 'trang chủ',
+		label: 'Trang chủ',
+		path: '/',
+		icon: <IconHome2 />
+	},
+	{
+		key: 'sự kiện',
+		label: 'Sự kiện',
+		path: '/danhsachsukien',
+		icon: <IconClipboardList />
+	},
+	{
+		key: 'nhân viên',
+		label: 'Nhân viên',
+		path: '/nhanvien',
+		icon: <IconAccessible />
+	}
+]
+
+export const user_sidebar_link = [
+	{
+		key: 'sự kiện',
+		label: 'Sự kiện',
+		path: '/danhsachsukien',
+		icon: <IconClipboardList />
+	},
+	{
+		key: 'thông Tin Cá Nhân',
+		label: ' Thông Tin Cá Nhân',
+		path: '/nhanvien',
+		icon: <IconAccessible />
+	}
+]
+
+export const subadmin_sidebar_link = [
+	{
+		key: 'sự kiện',
+		label: 'Sự kiện',
+		path: '/danhsachsukien',
+		icon: <IconClipboardList />
+	}
+]
+
